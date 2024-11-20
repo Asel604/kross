@@ -1,0 +1,89 @@
+.header{
+    width: 1080px;
+    
+
+    .head{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+
+       
+
+    .head-left{
+        width: 255px;
+        height: 41px;
+       display: flex;
+       margin-top: 43px;
+       margin-left: 45px;
+       gap: 16px;
+     
+
+         img{
+            width: 40px;
+            height: 40px;
+         }
+         h3{
+                color: rgb(0, 0, 0);
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0%;
+                text-align: left;
+                text-transform: uppercase;
+         }
+         p{
+            color: rgb(157, 157, 157);
+            font-family: Inter;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 17px;
+            letter-spacing: 0%;
+            text-align: left;
+         }
+    }
+    .head-right{
+        display: flex;
+        margin-top: 55px;
+        margin-right: 60px;
+        gap: 32px;
+
+        .head-icon{
+            display: flex;
+            position: relative;
+            gap: 8px;
+
+            p{
+                color: rgb(92, 92, 92);
+                font-family: Inter;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 17px;
+                letter-spacing: 0%;
+                text-align: left;
+            }
+            .count{
+              position: absolute;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 12px;
+              height: 12px;
+              border-radius: 50%;
+              font-size: 12px;
+              color: white;
+              background-color: red;
+              top: -10px;
+              left: 20px;
+
+            }
+        }
+    }
+    .line{
+        border-bottom: 1px solid  rgb(234, 234, 234);
+        margin-top: 44px;
+    }
+
+}

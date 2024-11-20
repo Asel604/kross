@@ -1,0 +1,123 @@
+.shop{
+    width: 960px;
+   margin: 20px 75px 10px 45px;
+
+    .cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid rgb(180, 174, 174);
+        padding: 0px 20px 0px 20px;
+        border-radius: 7px;
+        margin-top: 15px;
+          
+        h5{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+        
+        h6{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 17px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+
+          img{
+            width: 120px;
+            height: 120px;
+          }
+           .none{
+            width: 30px;
+            height: 30px;
+           }
+
+    }
+
+    .total{
+      width: 370px;
+      height: 150px;
+      border: 1px solid black;
+      border-radius: 8px;
+      padding-left: 35px;
+      padding-right: 35px;
+      margin-left: 520px;
+      margin-top: 20px;
+
+      .t-price{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 15px;
+        margin-top: 15px;
+
+        h4{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+
+        h5{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 17px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+      .nalog{
+        display: flex;
+        justify-content: space-between;
+
+        h4{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 19px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+
+        h5{
+          color: rgb(0, 0, 0);
+          font-family: Inter;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 17px;
+          letter-spacing: 0%;
+          text-align: left;
+        }
+      }
+      button{
+        width: 325px;
+        height: 55px;
+        border-radius: 18px;
+        background: rgb(157, 213, 88);
+        border: none;
+        margin-top: 25px;
+        // margin-left: 35px;
+        color: rgb(255, 255, 255);
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+      }
+
+    }
+}
